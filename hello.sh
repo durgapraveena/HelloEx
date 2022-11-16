@@ -1,5 +1,5 @@
 #!/bin/bash
-str="hello world"
+str="hai hello"
 substr="hello"
 if [[ $str == "$substr"* ]];
 then
