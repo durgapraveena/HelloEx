@@ -1,7 +1,7 @@
 #!/bin/bash
 str="hello world"
 substr="hello"
-if [[ contains "$substr"* "$str" ]];
+if [[$str =~ "$substr"*]];
 then
     echo "Success."
 else
